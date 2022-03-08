@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="Estatus de la conexión:" HorizontalAlignment="Left" Margin="473,25,0,0" VerticalAlignment="Top"/>
-        <Label Content="" HorizontalAlignment="Left" Margin="598,25,0,0" VerticalAlignment="Top" Name="estatus" Width="192"/>
+        <Button Content="Agregar" HorizontalAlignment="Left" Margin="483,340,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="118"/>
+        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,0,420,260" Name="data"/>
+        <TextBox x:Name="nombreInput" HorizontalAlignment="Left" Margin="566,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Nombre producto" HorizontalAlignment="Left" Margin="460,226,0,0" VerticalAlignment="Top"/>
+
+
     </Grid>
 </Window>
