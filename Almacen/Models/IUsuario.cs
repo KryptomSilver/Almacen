@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Almacen.Models
 {
-    public interface IUsuario
+    public class Usuario
     {
         public string nombre { get; set; }
         public int codEmpleado { get; set; }
